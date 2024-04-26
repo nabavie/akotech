@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T06:54:37.479Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="H2pbO56h655NdxYaCUdt" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-26T06:57:03.674Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="rZpe8uXx4UbRFRRW4S9p" version="24.3.0" type="github">
   <diagram id="0d7cefc2-ccd6-e077-73ed-a8e48b0cddf6" name="Page-1">
     <mxGraphModel dx="2603" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -38,11 +38,15 @@
         <mxCell id="LFsaM6jL38PYg--eIMn3-7" value="&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;DB Master&lt;/u&gt;&lt;/div&gt;&lt;div&gt;10.10.8.104&lt;/div&gt;&lt;div&gt;Percona Server for MySQL 8&lt;br&gt;&lt;/div&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="710" y="400" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="LFsaM6jL38PYg--eIMn3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.578;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LFsaM6jL38PYg--eIMn3-1" target="tYqqfRV4sgVxjDrHHQp--108">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="LFsaM6jL38PYg--eIMn3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.021;entryY=0.531;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LFsaM6jL38PYg--eIMn3-1" target="tYqqfRV4sgVxjDrHHQp--108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="441" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="LFsaM6jL38PYg--eIMn3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.021;entryY=0.516;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tYqqfRV4sgVxjDrHHQp--106" target="tYqqfRV4sgVxjDrHHQp--108">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="LFsaM6jL38PYg--eIMn3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.672;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tYqqfRV4sgVxjDrHHQp--106" target="tYqqfRV4sgVxjDrHHQp--108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="437" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="LFsaM6jL38PYg--eIMn3-10" value="DB Slave" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=16;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
           <mxGeometry x="710" y="220" width="48" height="64" as="geometry" />
