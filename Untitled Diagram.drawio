@@ -1,19 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T06:01:30.010Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="A2V4NbmlWDwzzykKf6NF" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-26T06:46:25.035Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="LibR28iQPXHM4ehFCB5q" version="24.3.0" type="github">
   <diagram id="0d7cefc2-ccd6-e077-73ed-a8e48b0cddf6" name="Page-1">
-    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2603" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <object label="Web Server1" Package="Apache 2.4" id="tYqqfRV4sgVxjDrHHQp--106">
-          <mxCell style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];fontSize=16;" vertex="1" parent="1">
-            <mxGeometry x="310" y="330" width="80" height="80" as="geometry" />
+        <object label="Web Server2" Package="Apache 2.4" id="tYqqfRV4sgVxjDrHHQp--106">
+          <mxCell style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];fontSize=16;" parent="1" vertex="1">
+            <mxGeometry x="370" y="530" width="80" height="80" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="tYqqfRV4sgVxjDrHHQp--108" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
-          <mxGeometry x="500" y="110" width="48" height="64" as="geometry" />
+        <mxCell id="tYqqfRV4sgVxjDrHHQp--108" value="DB Master" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=16;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" parent="1" vertex="1">
+          <mxGeometry x="640" y="404" width="48" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="tYqqfRV4sgVxjDrHHQp--109" value="&lt;p style=&quot;margin:0px;margin-top:10px;text-align:center;text-decoration:underline;&quot;&gt;Web Server1&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;value1&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="170" y="320" width="120" height="140" as="geometry" />
+        <mxCell id="tYqqfRV4sgVxjDrHHQp--109" value="&lt;p style=&quot;margin:0px;margin-top:10px;text-align:center;text-decoration:underline;&quot;&gt;Web Server2&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;10.10.8.102&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Processmaker3.7&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Apache4.2&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="230" y="530" width="120" height="90" as="geometry" />
+        </mxCell>
+        <object label="Web Server1" Package="Apache 2.4" id="LFsaM6jL38PYg--eIMn3-1">
+          <mxCell style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];fontSize=16;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+            <mxGeometry x="370" y="270" width="80" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="LFsaM6jL38PYg--eIMn3-2" value="&lt;p style=&quot;margin:0px;margin-top:10px;text-align:center;text-decoration:underline;&quot;&gt;Web Server1&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;10.10.8.101&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Processmaker3.7&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Apache4.2&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LFsaM6jL38PYg--eIMn3-3" value="HAProxy" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.classic_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="LFsaM6jL38PYg--eIMn3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.375;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LFsaM6jL38PYg--eIMn3-3" target="LFsaM6jL38PYg--eIMn3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LFsaM6jL38PYg--eIMn3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.375;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LFsaM6jL38PYg--eIMn3-3" target="tYqqfRV4sgVxjDrHHQp--106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LFsaM6jL38PYg--eIMn3-6" value="&lt;p style=&quot;margin:0px;margin-top:10px;text-align:center;text-decoration:underline;&quot;&gt;bpms.fardiran.com&lt;/p&gt;&lt;p style=&quot;margin: 10px 0px 0px; text-align: center;&quot;&gt;&lt;u&gt;10.10.8.103&lt;/u&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px 0px 0px; text-align: center;&quot;&gt;&lt;u&gt;Haproxy2.9&lt;/u&gt;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="400" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LFsaM6jL38PYg--eIMn3-7" value="&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;DB Master&lt;/u&gt;&lt;/div&gt;&lt;div&gt;10.10.8.104&lt;/div&gt;&lt;div&gt;Percona Server for MySQL 8&lt;br&gt;&lt;/div&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="710" y="400" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LFsaM6jL38PYg--eIMn3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.578;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LFsaM6jL38PYg--eIMn3-1" target="tYqqfRV4sgVxjDrHHQp--108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LFsaM6jL38PYg--eIMn3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.021;entryY=0.516;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tYqqfRV4sgVxjDrHHQp--106" target="tYqqfRV4sgVxjDrHHQp--108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LFsaM6jL38PYg--eIMn3-10" value="DB Slave" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=16;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="710" y="220" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="LFsaM6jL38PYg--eIMn3-13" value="&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;DB Slave&lt;/u&gt;&lt;/div&gt;&lt;div&gt;10.10.8.105&lt;/div&gt;&lt;div&gt;Percona Server for MySQL 8&lt;br&gt;&lt;/div&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="780" y="220" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LFsaM6jL38PYg--eIMn3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.479;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.417;exitY=0.031;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tYqqfRV4sgVxjDrHHQp--108" target="LFsaM6jL38PYg--eIMn3-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="200" />
+              <mxPoint x="733" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object label="Demo" Package="Apache 2.4" id="LFsaM6jL38PYg--eIMn3-15">
+          <mxCell style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];fontSize=16;" vertex="1" parent="1">
+            <mxGeometry x="140" y="690" width="80" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="LFsaM6jL38PYg--eIMn3-16" value="&lt;p style=&quot;margin:0px;margin-top:10px;text-align:center;text-decoration:underline;&quot;&gt;Demo&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;10.10.8.108&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Processmaker3.7&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Apache4.2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Mysql 8&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="680" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LFsaM6jL38PYg--eIMn3-17" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.database_3" vertex="1" parent="1">
+          <mxGeometry x="490" y="80" width="49" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LFsaM6jL38PYg--eIMn3-18" value="&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;File Sharing&lt;/u&gt;&lt;/div&gt;&lt;div&gt;10.10.8.107&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="70" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LFsaM6jL38PYg--eIMn3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.571;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1" source="LFsaM6jL38PYg--eIMn3-1" target="LFsaM6jL38PYg--eIMn3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LFsaM6jL38PYg--eIMn3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.02;entryY=0.543;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1" source="tYqqfRV4sgVxjDrHHQp--106" target="LFsaM6jL38PYg--eIMn3-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="530" />
+              <mxPoint x="470" y="118" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
